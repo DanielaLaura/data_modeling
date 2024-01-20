@@ -1,0 +1,13 @@
+coveo:
+  outputs:
+    dev:
+      account: nbyyuyo-yr29957
+      database: COVEO
+      password: *
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: *
+      warehouse: COMPUTE_WH
+  target: dev

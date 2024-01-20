@@ -1,0 +1,17 @@
+config-version: 2
+version: 2
+model-paths: ["models/export"]
+analysis-paths: ["analyses"]
+test-paths: ["tests/export"]
+data-paths: ["data"]
+docs-paths: ["models/export"]
+macro-paths: ["macros"]
+taget-path: "target"
+clean-targets:
+  - "target"
+  - "logs"
+
+models:
+  - name: rpt_ml_search_model_obs
+  - name: rpt_ml_search_model_obs_v2
+

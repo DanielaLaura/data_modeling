@@ -1,0 +1,10 @@
+packages:
+- package: dbt-labs/dbt_utils
+  version: 1.1.1
+- package: calogica/dbt_expectations
+  version: 0.10.1
+- git: https://github.com/EqualExperts/dbt-unit-testing
+  revision: d32af5f837f526ed41b9f3e6747728fa3b57dd62
+- package: calogica/dbt_date
+  version: 0.10.0
+sha1_hash: 871a33b39508ce54c9efbef864129ebbc200df82

@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: coveo
+    database: coveo
+    schema: public
+    tables:
+      - name: clicks
+      - name: custom_events
+      - name: groups
+      - name: keywords
+      - name: searches

@@ -1,0 +1,18 @@
+config-version: 2
+version: 2
+model-paths: ["models/export"]
+analysis-paths: ["analyses"]
+test-paths: ["tests/export"]
+data-paths: ["data"]
+docs-paths: ["models/export"]
+macro-paths: ["macros"]
+taget-path: "target"
+clean-targets:
+  - "target"
+  - "logs"
+
+models:
+  - name: int_search_clicks
+  - name: fct_search_metrics
+  - name: fct_top_n_metrics
+
