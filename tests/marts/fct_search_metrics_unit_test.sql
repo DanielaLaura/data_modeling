@@ -1,6 +1,7 @@
 {{ config(tags=['unit-test']) }}
  -- depends on: {{ ref('int_search_clicks_seed') }}
  -- depends on {{ ref('searches_seed') }}
+-- depends_on: {{ ref('int_search_clicks') }}
 
 {% set options = {"include_missing_columns": true} %}
 
@@ -17,7 +18,11 @@
 
    {% call dbt_unit_testing.expect()  %}
     select
-    9  as searches_w_ckick
+    20  as searches_w_ckick,
+    15  as total_searches,
+    20   as vistis_w_click,
+    13 as   total_visits,
+    133.333300 as percentage_search
 
    {% endcall %}
 {% endcall %}
