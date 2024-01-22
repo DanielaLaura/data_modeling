@@ -25,6 +25,9 @@ select
       count(distinct visitid) as vistis_w_click,
       count(distinct id) as searches_w_ckick
 from {{ import_int_search_clicks }}
+{%  if is_incremental() %}
+where date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -34,6 +37,9 @@ select
       count(distinct visitid) as total_visits,
       count(distinct id) as total_searches
 from {{ import_searches }}
+{%  if is_incremental() %}
+where date(datetime) = current_date -1
+{% endif %}
 group by date(datetime)
 ),
 
@@ -50,6 +56,9 @@ from (
       from {{ import_searches }}
       group by 1, date(datetime)
 )
+{%  if is_incremental() %}
+where date_search = current_date -1
+{% endif %}
 group by 1
 order by 2 desc ),
 
@@ -64,6 +73,9 @@ from (
             count(distinct id) as total_searches
       from {{ import_searches }}
       group by 1, 2)
+{%  if is_incremental() %}
+where date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -78,6 +90,9 @@ from (
             count(distinct clickid) as total_clicks
       from {{ import_int_search_clicks }}
       group by 1, 2)
+{%  if is_incremental() %}
+where date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -87,6 +102,9 @@ select
       searches_w_ckick/total_searches*100 as percentage_search
 from all_searches a
 join search_w_click b on a.date=b.date
+{%  if is_incremental() %}
+where a.date = current_date -1
+{% endif %}
 ),
 
 observability as (

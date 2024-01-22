@@ -35,6 +35,9 @@ from (
     order  by 3 desc
 )
 where ranked_items <=10
+{%  if is_incremental() %}
+and date = current_date -1
+{% endif %}
 group by 1),
 
 top_items as (
@@ -50,6 +53,9 @@ from (
     group by 1, 2
 )
 where ranked_items <=10
+{%  if is_incremental() %}
+and date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -66,6 +72,9 @@ from (
    group by 1, 2
 )
 where ranked_items <=10
+{%  if is_incremental() %}
+and date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -82,6 +91,9 @@ from (
     group by 1, 2
 )
 where ranked_items <=10
+{%  if is_incremental() %}
+and date = current_date -1
+{% endif %}
 group by 1
 ),
 
@@ -100,7 +112,10 @@ from (
 --and b.documentcategory= 'page'
     group by 1,2
     order by 2 desc
-limit 10)
+    limit 10)
+{%  if is_incremental() %}
+where date = current_date -1
+{% endif %}
 group by 1
 )
 

@@ -36,4 +36,7 @@ select a.date,
 from {{ref('fct_search_metrics')}} a
 join {{ref('fct_top_n_metrics')}} b
 on a.date=b.date
+{%  if is_incremental() %}
+where a.date = current_date -1
+{% endif %}
 order by 1 desc

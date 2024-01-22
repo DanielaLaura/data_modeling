@@ -23,6 +23,9 @@ select
     rank() over (partition by visitid order by date_search asc)as search_rank,
     DATEDIFF(millisecond, LAG(a.datetime) over (partition by a.visitid order by a.datetime) , a.datetime) as diff_time_search
 from {{ source ('dimensions', 'searches') }}  a
+{%  if is_incremental() %}
+where date(datetime) = current_date -1
+{% endif %}
 group by 1,2,3
 order by a.datetime)
 
@@ -43,6 +46,9 @@ from {{ source ('dimensions', 'searches') }} a
 on a.id = b.searchid and a.visitid=b.visitid
     join ranked_searches c on a.id= c.searchid
 
+{%  if is_incremental() %}
+where date(a.datetime) = current_date -1
+{% endif %}
 
 
 
