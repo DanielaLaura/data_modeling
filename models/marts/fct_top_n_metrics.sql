@@ -3,7 +3,7 @@
       materialiized='incremental',
       unique_key=['date'],
       incremental_strategy='merge',
-      incremental_predicates = ["DBT_INTERNAL_DEST.date >= current_date"],
+      incremental_predicates = ["DBT_INTERNAL_DEST.date >= current_date-1"],
       partition_by={
        "field":"date",
        "data_type":"date",
@@ -84,6 +84,25 @@ group by 1, 2
 )
 where ranked_items <=10
 group by 1
+),
+
+top_n_users as (
+select
+date,
+array_agg(userid) as top_users
+from (
+select
+userid,
+date,
+count(distinct id) as total_searches,
+dense_rank() over (partition by userid order by count(distinct id) desc) as ranked_users
+from {{ ref('int_search_clicks') }}
+--where CONTAINS(sourcename, 'Confluence')
+--and b.documentcategory= 'page'
+group by 1,2
+order by 2 desc
+limit 10)
+group by 1
 )
 
 select
@@ -91,11 +110,13 @@ a.date,
 top_10_keywords,
 top_items,
 top_sources,
-top_browsers
+top_browsers,
+top_users
 from top_keywords a
 join top_items b on a.date=b.date
 join top_source c on a.date=c.date
 join top_browser d on a.date=d.date
+join top_n_users e on a.date=e.date
 
 
 

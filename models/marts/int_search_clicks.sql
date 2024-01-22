@@ -3,7 +3,7 @@
       materialiized='incremental',
       unique_key=['date'],
       incremental_strategy='merge',
-      incremental_predicates = ["DBT_INTERNAL_DEST.date >= current_date"],
+      incremental_predicates = ["DBT_INTERNAL_DEST.date >= current_date-1"],
       partition_by={
        "field":"date",
        "data_type":"date",
@@ -36,7 +36,8 @@ a.c_product,
 b.sourcename,
 a.browser,
 c.search_rank,
-c.diff_time_search
+c.diff_time_search,
+a.userid
 from {{ source('dimensions','searches') }} a
 join {{source('dimensions','clicks')}} b on a.id = b.searchid and  a.visitid=b.visitid
 join ranked_searches c on a.id=c.searchid

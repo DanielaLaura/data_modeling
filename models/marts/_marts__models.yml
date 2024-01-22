@@ -186,7 +186,7 @@ models:
     description: Fact table for "top N" metrics related to web search
     tests:
     - dbt_expectations.expect_table_column_count_to_equal:
-         value: 5
+         value: 6
          config:
            store_failures: false
     columns:
@@ -219,4 +219,9 @@ models:
           - not_null:
               config:
                 where: "date = current_date-1"
-
+      - name: top_users
+        description: top 10 users from where the searches originates per day
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
