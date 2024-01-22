@@ -2,7 +2,7 @@ Welcome to this data modeling - dbt project!
 
 ### SQL tests
 Sql code can be found at: 
-https://github.com/DanielaLaura/data_modeling/SQL_Test__Coveo.pdf
+https://github.com/DanielaLaura/data_modeling/blob/main/SQL_Test__Coveo.pdf
 ### About the data models:
 
 - There are 2 versions of "rpt_ml_search_model_obs" model, which is the requested data model that would make the reporting easier. 
