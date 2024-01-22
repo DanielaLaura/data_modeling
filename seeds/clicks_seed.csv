@@ -1,0 +1,316 @@
+CLICKID,SEARCHID,DATETIME,USERAGENT,ISINTERNAL,OPERATINGSYSTEMWITHVERSION,COUNTRY,CITY,LANGUAGE,BROWSERWITHVERSION,USERNAME,CLICKRANK,SPLITTESTRUNVERSION,ANONYMOUS,DOCUMENTAUTHOR,BROWSER,SYSTEMURIHASH,DOCUMENTURL,RANKINGMODIFIER,DOCUMENTCATEGORY,USERID,ORIGINCONTEXT,ORIGINLEVEL3,CAUSEV2,QUERYPIPELINE,DEVICECATEGORY,ORIGINLEVEL2,ORIGINLEVEL1,SOURCENAME,REGION,SPLITTESTRUNNAME,CLICKORIGINLEVEL2,CLICKORIGINLEVEL1,CUSTOMDATAS,COLLECTIONNAME,VISITORID,CLICKCUSTOMDATA,MOBILE,DOCUMENTTITLE,VISITID,CLICKCAUSE
+e9809fbc-ee5c-40f6-a73e-d7925edf3d98,0e5899d4-a3ae-4ac3-91df-4b7e194a0173,2019-10-15T00:01:41.928Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,Canada,Pembroke,en,Firefox 45.0,anonymous,1,,TRUE,Corey Jones,Firefox,Nz9iBðfgEqfQQR0X,https://devcoveo.sharepoint.com/coveodemo/Shared%20Documents/Speedbit%20-%20Product/Speedbit%20Blaze%20User%20Manual.pdf,,,fc773eba-8d32-483c-9bb5-d6680fe16937,,,documentOpen,default,Personal computer,,CommunitySearch,Sharepoint Speedbit,Ontario,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""192.40.239.233"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Certifications""
+}",default,fc773eba-8d32-483c-9bb5-d6680fe16937,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""192.40.239.233"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Certifications""
+}",FALSE,Speedbit Blaze User Manual.pdf,4609a861-e52f-4bf2-bab1-e5910cdefdc8,documentOpen
+89ce988f-3126-44aa-b667-d719f3b3fcbe,834fc925-c9c0-4171-948c-65ae784b9603,2019-10-15T00:03:05.759Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,United States,Blacksburg,en,Firefox 45.0,wallace.torres@gmail.com,1,,FALSE,Corey Jones,Firefox,Nz9iBðfgEqfQQR0X,https://devcoveo.sharepoint.com/coveodemo/Shared%20Documents/Speedbit%20-%20Product/Speedbit%20Blaze%20User%20Manual.pdf,,,wallace.torres@gmail.com,,,documentOpen,default,Personal computer,,CommunitySearch,Sharepoint Speedbit,Virginia,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Training Courses""
+}",default,b0eb9d57-8694-439a-b68a-dbea13275f7e,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Training Courses""
+}",FALSE,Speedbit Blaze User Manual.pdf,c7ebf7e5-8ecf-4ca6-9798-d3e9d6c3325e,documentOpen
+d30775c1-439a-4d0c-bde5-f6ba17795d67,8d494fb7-af44-4292-8645-31e804456e41,2019-10-15T00:03:53.865Z,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36",FALSE,Windows 7,United States,Blacksburg,en,Chrome 49.0,shannon.grant@facebook.com,3,,FALSE,Josephine Gutierrez,Chrome,MSJj5cXrJFPoxjM6,https://community.speedbit.com/t5/Charge/Broken-Screen/m-p/1426382#M56900,,,shannon.grant@facebook.com,,,documentOpen,default,Personal computer,,CommunitySearch,Community,Virginia,,,CommunitySearch,"{
+  ""c_author"": ""Josephine Gutierrez"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""FitnessPlus"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",default,2e715322-8e97-48d5-bcf8-5b9c375c21a3,"{
+  ""c_author"": ""Josephine Gutierrez"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""FitnessPlus"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",FALSE,Re: Broken Screen,b83556c4-8c9f-4602-b14c-dd4ec9c5f263,documentOpen
+e988f770-082a-4c78-9136-abd7229049e6,307a3c6c-5ac1-4dcf-a670-362e02826af8,2019-10-15T00:05:22.007Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",FALSE,iOS 9,United States,Boardman,en,Safari mobile 9.0,anonymous,1,,TRUE,Corey Jones,Safari mobile,Nz9iBðfgEqfQQR0X,https://devcoveo.sharepoint.com/coveodemo/Shared%20Documents/Speedbit%20-%20Product/Speedbit%20Blaze%20User%20Manual.pdf,,,f16f3e87-6de5-453e-9fea-fdf57c2b07b1,,,documentOpen,default,Smartphone,,CommunitySearch,Sharepoint Speedbit,Oregon,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""52.24.0.108"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",default,f16f3e87-6de5-453e-9fea-fdf57c2b07b1,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""52.24.0.108"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",TRUE,Speedbit Blaze User Manual.pdf,7c0e1dfd-04fe-4c7e-a019-120255c690ab,documentOpen
+5ef30b67-92ba-4abe-8e04-89c1fc705ca7,5cd39f9d-9438-4cd2-8e00-c4d0987c8d4a,2019-10-15T00:06:23.985Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",FALSE,iOS 9,United States,,en,Safari mobile 9.0,victoria.brown@yahoo.com,3,,FALSE,Corey Jones,Safari mobile,ZQEOSnzrrGI8HðjT,https://ven02642.service-now.com/nav_to.do?uri=kb_knowledge.do?sys_id=f77d34b1474321009db4b5b08b9a71c5%26sysparam_view-ess,,,victoria.brown@yahoo.com,,,documentQuickview,default,Smartphone,,CommunityCaseCreation,ServiceNow,North America,,,CommunityCaseCreation,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": ""Certifications""
+}",default,bbd40b69-4676-42f9-980b-8a695f88112f,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": ""Certifications""
+}",TRUE,Enable/Disable Wireless Laptop Connections,7baf51dd-37ab-49a5-bc34-5bc50cf60cce,documentQuickview
+b5a19685-5b19-4f5f-9a08-ee82cc5c59ea,4dac1042-a89b-4357-8870-b5d3744edced,2019-10-15T00:07:35.733Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,United States,Boardman,en,Firefox 45.0,anonymous,1,,TRUE,Clayton Freeman,Firefox,g1IADmJ34uIm6G8n,https://help.speedbit.com/articles/en_US/Help_article/2331,,,bb2f3827-fc61-4ccd-ab2c-a7bbc6e94404,,,documentOpen,default,Personal computer,,CommunitySearch,Help Section,Oregon,,,CommunitySearch,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""52.24.0.108"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",default,bb2f3827-fc61-4ccd-ab2c-a7bbc6e94404,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""52.24.0.108"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",FALSE,Speedbit Help - How do I use the adidas Train app on Ionic?,b248be5d-24e4-4cb6-89d4-dcf70703861e,documentOpen
+2a5be045-d78b-4be8-b55f-b82252230a31,c56d05bf-ae8f-4fe2-ab0a-8e364c2326da,2019-10-15T00:09:46Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,United States,,en,Firefox 45.0,anonymous,1,,TRUE,Ana Armstrong,Firefox,zHBbIph7btQiKmIO,https://devcoveo.sharepoint.com/coveodemo/Shared%20Documents/Speedbit%20-%20Product/Speedbit%20Charge%20User%20Manual.pdf,,,689ae86b-9bdd-4657-90d1-c488a86afd03,,,documentOpen,default,Personal computer,,CommunitySearch,Sharepoint Speedbit,North America,,,CommunitySearch,"{
+  ""c_author"": ""Ana Armstrong"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""160.72.0.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": """"
+}",default,689ae86b-9bdd-4657-90d1-c488a86afd03,"{
+  ""c_author"": ""Ana Armstrong"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""160.72.0.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": """"
+}",FALSE,Speedbit Charge User Manual.pdf,d7170a49-32ea-4f1e-8ad7-413ba443c805,documentOpen
+9817cc95-f416-4b03-b805-6c866f0df441,3625c6a0-29c6-4417-b3d5-a7c405e0bd0e,2019-10-15T00:10:04.124Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",FALSE,iOS 9,United States,,en,Safari mobile 9.0,wallace.price@hotmail.com,3,,FALSE,Corey Jones,Safari mobile,ZQEOSnzrrGI8HðjT,https://ven02642.service-now.com/nav_to.do?uri=kb_knowledge.do?sys_id=f77d34b1474321009db4b5b08b9a71c5%26sysparam_view-ess,,,wallace.price@hotmail.com,,,documentQuickview,default,Smartphone,,CommunityCaseCreation,ServiceNow,North America,,,CommunityCaseCreation,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": """"
+}",default,3a1cc1d9-152f-420b-929c-08e9613d82f6,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": """"
+}",TRUE,Enable/Disable Wireless Laptop Connections,77216b56-eac4-4af4-8680-900ec57baa3e,documentQuickview
+2ea550d4-8252-460b-8151-c09f5926a83b,79f3bc24-ac25-4503-adf0-60b2d9a18c1c,2019-10-15T00:10:21.717Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,Canada,Toronto,en,Firefox 45.0,anonymous,2,,TRUE,Ana Armstrong,Firefox,V1KExAtqFTp6N8qB,https://help.speedbit.com/articles/en_US/Help_article/2233,,,ec89a2a2-e88f-47d7-87dc-1fbc5a5736b0,,,documentOpen,default,Personal computer,,CommunitySearch,Help Section,Ontario,,,CommunitySearch,"{
+  ""c_author"": ""Ana Armstrong"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""66.46.18.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Training Courses""
+}",default,ec89a2a2-e88f-47d7-87dc-1fbc5a5736b0,"{
+  ""c_author"": ""Ana Armstrong"",
+  ""c_customvalue"": ""Value3"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""66.46.18.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Training Courses""
+}",FALSE,Speedbit Help - How do I connect my Speedbit watch to Wi-Fi?,2674be7b-5368-449e-a3bb-7df8038cb57a,documentOpen
+675a0c74-c6b3-4666-ba5e-dd2f7a998826,d1227f05-88d5-41ff-84fd-3da6785b0c03,2019-10-15T00:10:51.759Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,China,,en,Firefox 45.0,beverley.price@hotmail.com,5,,FALSE,Corey Jones,Firefox,vGLNQcAc1qfJpyXt,https://blog.speedbit.com/should-you-really-take-10000-steps-a-day/,,,beverley.price@hotmail.com,,,documentOpen,default,Personal computer,,CommunitySearch,Blog,Asia,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""115.84.192.169"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",default,64fc547e-40db-498b-8e79-2fc3092b5590,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""115.84.192.169"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",FALSE,"Should You Really Take 10,000 Steps A Day?",c5f3331e-a507-4eda-8840-ce680d26fc4c,documentOpen
+da5b88ec-59a0-4028-a079-a13fc1820603,0bf10048-7f87-4f11-b193-95c23ba456c7,2019-10-15T00:12:32.685Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,Canada,Toronto,en,Firefox 45.0,anonymous,3,,TRUE,Corey Jones,Firefox,GFVpphANEH7yIhVH,https://help.speedbit.com/articles/en_US/Help_article/1582,,,a80f5000-f1a1-4f04-acc4-c6391874f658,,,documentOpen,default,Personal computer,,CommunitySearch,Help Section,Ontario,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge 2 Fitness"",
+  ""c_recommendation"": ""Training Courses""
+}",default,a80f5000-f1a1-4f04-acc4-c6391874f658,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge 2 Fitness"",
+  ""c_recommendation"": ""Training Courses""
+}",FALSE,Speedbit Help - Why don't I see my heart rate on my Speedbit device?,85993a50-af58-4bea-8d1a-381a18f6f97b,documentOpen
+312c3300-d037-440a-8e19-729523203721,aec132bc-0d51-4fd3-8c44-b4eb93ffbc0d,2019-10-15T00:13:11.63Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,Canada,Toronto,en,Firefox 45.0,anonymous,3,,TRUE,Clayton Freeman,Firefox,EFqGvakVSLoñfsuU,https://help.speedbit.com/articles/en_US/Help_article/2206,,,fa99c699-4697-45c2-835f-b3b7df9d6d43,,,documentOpen,default,Personal computer,,CommunitySearch,Help Section,Ontario,,,CommunitySearch,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""66.46.18.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",default,fa99c699-4697-45c2-835f-b3b7df9d6d43,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""66.46.18.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",FALSE,Speedbit Help - About Speedbit Flyer,dc2b3fa8-14c2-46ed-8021-a1d96eb55282,documentOpen
+c39bf02b-c876-435c-9c61-ea7739822e25,9f484885-5610-4396-94cf-04264de60fce,2019-10-15T00:15:24.128Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,United States,,en,Firefox 45.0,anonymous,1,,TRUE,Clayton Freeman,Firefox,PfP3YfmSubOhEhHU,https://www.speedbit.com/shop/versa,,,ab2ec802-9723-4687-8af4-9c691bcb2f87,,,documentOpen,default,Personal computer,,CommunitySearch,http://www.fitbit.com/,North America,,,CommunitySearch,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""205.214.160.167"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",default,ab2ec802-9723-4687-8af4-9c691bcb2f87,"{
+  ""c_author"": ""Clayton Freeman"",
+  ""c_customvalue"": ""Value2"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""205.214.160.167"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""J&J Fitness Inc"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",FALSE,Speedbit Versa 2™ Smartwatch,d86e7fe2-ff65-44e5-9735-a60b507176ef,documentOpen
+557a9d10-02cb-4fbc-9db2-09a5e3e53829,1ea581e0-a139-441f-a567-5abb0a862971,2019-10-15T00:16:22.656Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",FALSE,iOS 8,United States,Blacksburg,en,Safari mobile 8.0,avery.brown@strongit.com,2,,FALSE,Victoria Boyd,Safari mobile,DJ6NojI0nVðW3Ass,https://help.speedbit.com/articles/en_US/Help_article/2004,,,avery.brown@strongit.com,,,documentQuickview,default,Smartphone,,CommunityCaseCreation,Help Section,Virginia,,,CommunityCaseCreation,"{
+  ""c_author"": ""Victoria Boyd"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""Distributors"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": ""Training Courses""
+}",default,6223e4f7-c86d-4ad3-84c8-cbac697b810d,"{
+  ""c_author"": ""Victoria Boyd"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Basic"",
+  ""c_ipaddress"": ""216.252.192.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""Distributors"",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": ""Training Courses""
+}",TRUE,Speedbit Help - Can I extend my Speedbit device's battery life?,a52d4cfb-bf73-42a5-b7ca-24d5607dfd7f,documentQuickview
+bfd39bdc-d930-4b3e-a80b-854c9bc42252,d10d4918-4be8-43d1-aa68-56ee96a22ee3,2019-10-15T00:16:33.719Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,Windows 7,United States,,en,Firefox 45.0,anonymous,1,,TRUE,Corey Jones,Firefox,Nz9iBðfgEqfQQR0X,https://devcoveo.sharepoint.com/coveodemo/Shared%20Documents/Speedbit%20-%20Product/Speedbit%20Blaze%20User%20Manual.pdf,,,2778058f-d209-4eb5-bdcd-a3f2957f1138,,,documentOpen,default,Personal computer,,CommunitySearch,Sharepoint Speedbit,North America,,,CommunitySearch,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Speed Flex 2 Fitness Tracker"",
+  ""c_recommendation"": """"
+}",default,2778058f-d209-4eb5-bdcd-a3f2957f1138,"{
+  ""c_author"": ""Corey Jones"",
+  ""c_customvalue"": """",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Speed Flex 2 Fitness Tracker"",
+  ""c_recommendation"": """"
+}",FALSE,Speedbit Blaze User Manual.pdf,b2886134-9e93-48b7-b5e9-ca6004789bb9,documentOpen

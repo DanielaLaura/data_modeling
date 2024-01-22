@@ -3,11 +3,11 @@ coveo:
     dev:
       account: nbyyuyo-yr29957
       database: COVEO
-      password: *
+      password: Blablacar04040505*
       role: ACCOUNTADMIN
       schema: PUBLIC
       threads: 1
       type: snowflake
-      user: *
+      user: LAURAHUDSON
       warehouse: COMPUTE_WH
   target: dev

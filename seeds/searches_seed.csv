@@ -1,0 +1,272 @@
+ID,DATETIME,USERAGENT,SEARCHISCONTEXTUAL,ISINTERNAL,ACTIONCAUSE,OPERATINGSYSTEMWITHVERSION,COUNTRY,CITY,BATCHID,LANGUAGE,BROWSERWITHVERSION,USERNAME,NUMBEROFRESULTS,SPLITTESTRUNVERSION,ANONYMOUS,BROWSER,RESPONSETIMEMS,SEARCHCUSTOMDATA,SEARCHORIGINLEVEL1,SEARCHORIGINLEVEL2,WITHRESULTS,USERID,ORIGINCONTEXT,ORIGINLEVEL3,CAUSEV2,QUERYPIPELINE,DEVICECATEGORY,ORIGINLEVEL2,ORIGINLEVEL1,REGION,SPLITTESTRUNNAME,ADVANCEDQUERYEXPRESSION,CUSTOMDATAS,VISITORID,QUERYEXPRESSION,WITHCLICKS,MOBILE,VISITID,C_JSUIVERSION,C_PRODUCT,C_FACETVALUE
+0eb18388-5dba-4d84-85a9-891e4a9e9491,2019-10-15T07:49:48.716Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",FALSE,FALSE,searchboxSubmit,iOS 8,,,12112102-7b30-4070-a98c-d64f3ca1fae1,en,Safari mobile 8.0,anonymous,3965,,TRUE,Safari mobile,106,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Jackson & Larry"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,7c8273fd-d514-4082-9da5-66c0a25a1925,,,searchboxSubmit,,Smartphone,,CommunitySearch,,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Jackson & Larry"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",7c8273fd-d514-4082-9da5-66c0a25a1925,tracker's battery life,FALSE,TRUE,20714772-fbe0-43a5-b04f-eb11daffa52a,0.0.0.0;0.0.0.0,Speedbit Blaze Smart,
+e7441e4f-1e3b-4d28-8d9c-953df0995210,2019-10-15T07:50:00.139Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,FALSE,inputChange,Windows 7,,,e213bde1-503d-4c58-942c-dc7d1a137cc4,en,Firefox 45.0,anonymous,10193,,TRUE,Firefox,39,"{
+  ""c_customvalue"": ""Value3"",
+  ""c_inputtitle"": ""Subject"",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Status Upgrades""
+}",CommunityCaseCreation,,TRUE,5867d144-beff-474a-892d-0c79348c03d6,,,inputChange,,Personal computer,,CommunityCaseCreation,,,"($some(keywords: Download software Update, match: 1, removeStopWords: true, maximum: 300)) ($sort(criteria: relevancy))","{
+  ""c_customvalue"": ""Value3"",
+  ""c_inputtitle"": ""Subject"",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Status Upgrades""
+}",5867d144-beff-474a-892d-0c79348c03d6,download software update,TRUE,FALSE,71d5de24-d382-4cbe-ac0a-af81b2328d0a,0.0.0.0;0.0.0.0,Speedbit Blaze Smart,
+41fa876f-b246-4e5a-b93f-a106dec0eec6,2019-10-15T07:50:18.228Z,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36",FALSE,FALSE,searchboxSubmit,Windows 7,Canada,Toronto,18a22fd5-bf4d-41a6-9552-a04c586b8329,en,Chrome 49.0,anonymous,10723,,TRUE,Chrome,26,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Training Courses""
+}",CommunitySearch,,TRUE,f06acd07-c198-4628-bcaa-6aaf2148f13a,,,searchboxSubmit,,Personal computer,,CommunitySearch,Ontario,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Pro Fitness Consulting"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Training Courses""
+}",f06acd07-c198-4628-bcaa-6aaf2148f13a,what is purepulse?,TRUE,FALSE,b6cdc272-8888-464b-844f-d04fcf030233,0.0.0.0;0.0.0.0,Speedbit Zip Fitness Tracker,
+f53bd314-374e-440f-ad15-e16f356bba40,2019-10-15T07:51:00.317Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,FALSE,searchboxSubmit,Windows 7,United States,,d0acb7ec-d498-4f50-a699-b925a46673e6,en,Firefox 45.0,brandie.rhodes@gmail.com,484,,FALSE,Firefox,28,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""160.72.0.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Mortens Fitness Consultants"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,brandie.rhodes@gmail.com,,,searchboxSubmit,,Personal computer,,CommunitySearch,North America,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""160.72.0.1"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Mortens Fitness Consultants"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Zip Fitness Tracker"",
+  ""c_recommendation"": ""Certifications""
+}",40b3b893-1dcc-4de1-b65a-6f916d0b706a,tracking watch,FALSE,FALSE,132f4fd0-013d-4655-aefe-cbdddcc9a718,0.0.0.0;0.0.0.0,Speedbit Zip Fitness Tracker,
+cb4833b4-19a6-465b-8956-f6e0874ceeb1,2019-10-15T07:51:05.392Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,FALSE,searchboxSubmit,Windows 7,China,,69478e60-167d-45d2-87d1-6f5286a12782,en,Firefox 45.0,shannon.grant@hexzone.com,1856,,FALSE,Firefox,31,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""106.83.123.87"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Mortens Fitness Consultants"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Flex 2 Fitness"",
+  ""c_recommendation"": ""Service Contracts""
+}",CommunitySearch,,TRUE,shannon.grant@hexzone.com,,,searchboxSubmit,,Personal computer,,CommunitySearch,Chongqing,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""106.83.123.87"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Mortens Fitness Consultants"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Speedbit Flex 2 Fitness"",
+  ""c_recommendation"": ""Service Contracts""
+}",4f79205a-3cc7-4c0c-87c5-03368f7304c4,speedbit blaze broken,TRUE,FALSE,b501754b-5a50-454a-b126-71ad4c2ea20b,0.0.0.0;0.0.0.0,Speedbit Flex 2 Fitness,
+5f963a71-543b-46e4-b803-019a4d106a6c,2019-10-15T07:51:20.161Z,"Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1",FALSE,FALSE,searchboxSubmit,iOS 9,China,,fbf37607-12e4-49b5-a385-abbc24884980,en,Safari mobile 9.0,pedro.grant@gmail.com,51985,,FALSE,Safari mobile,36,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""115.84.192.169"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,pedro.grant@gmail.com,,,searchboxSubmit,,Tablet,,CommunitySearch,Asia,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""115.84.192.169"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": ""Reseller"",
+  ""c_product"": ""Speedbit Blaze Smart"",
+  ""c_recommendation"": ""Certifications""
+}",cee2ddca-a6a4-480e-b91b-8d8e4685fc67,how to charge the watch,TRUE,TRUE,cf807397-ec5f-40fc-914c-b9c311231085,0.0.0.0;0.0.0.0,Speedbit Blaze Smart,
+25a83591-deaa-4483-a582-ac87d36a5a25,2019-10-15T07:51:45.371Z,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,FALSE,FALSE,searchboxSubmit,Windows 7,Canada,Prince Albert,a7d0c81b-31b7-4920-b915-2071632d2b0c,en,Firefox 45.0,christian.james@yahoo.com,25842,,FALSE,Firefox,133,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""198.169.156.67"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Blaze Smart Fitness Watch - Large - Black"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,christian.james@yahoo.com,,,searchboxSubmit,,Personal computer,,CommunitySearch,Saskatchewan,,,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""198.169.156.67"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Blaze Smart Fitness Watch - Large - Black"",
+  ""c_recommendation"": ""Certifications""
+}",05bc5916-a1c2-4c25-aa32-d12d48b2239a,certification of speedbit,TRUE,FALSE,8ed2b876-0b3b-4cc0-9d2e-abcb90b7a20d,0.0.0.0;0.0.0.0,Fitbit Blaze Smart Fitness Watch - Large - Black,
+075b0577-9964-484a-831a-c097ec46111d,2019-10-15T07:51:52.625Z,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko,FALSE,FALSE,searchboxSubmit,Windows 7,United States,Philadelphia,4f6be1a6-7f45-4721-b9db-731a98057510,en,IE 11.0,beverley.craig@gmail.com,3748,,FALSE,IE,46,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""198.199.154.209"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",CommunitySearch,,TRUE,beverley.craig@gmail.com,,,searchboxSubmit,,Personal computer,,CommunitySearch,Pennsylvania,,,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""198.199.154.209"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",e9e08448-4879-44fd-9cbb-6cfb97b2a3c3,warranty,FALSE,FALSE,b20380a8-7593-489b-83c7-4c66c6a5213a,0.0.0.0;0.0.0.0,Speedbit Charge HR,
+3346bf2d-801f-43a6-94a4-be492063ded5,2019-10-15T07:52:32.024Z,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36",FALSE,FALSE,searchboxSubmit,Windows 7,United States,Dayton,52bebcd0-8a60-42e2-a127-b302f89efb94,en,Chrome 49.0,anonymous,42,,TRUE,Chrome,200,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""72.9.32.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,4c9bf82b-d398-44b0-8163-b1081ab99a66,,,searchboxSubmit,,Personal computer,,CommunitySearch,Ohio,,,"{
+  ""c_customvalue"": ""Value2"",
+  ""c_ipaddress"": ""72.9.32.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Arizona Fitness Specialists"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Certifications""
+}",4c9bf82b-d398-44b0-8163-b1081ab99a66,memory issue,FALSE,FALSE,bc803c25-2ec4-40e4-8b0f-6a95a6024dcb,0.0.0.0;0.0.0.0,Fitbit Flex 2 Bangle,
+2cabd792-a24f-40d5-ad7c-29ec5e961867,2019-10-15T07:52:33.223Z,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36",FALSE,FALSE,searchboxSubmit,Windows 7,United States,Dayton,3f90bea7-e4ee-4e63-9928-8c72d29f9064,en,Chrome 49.0,anonymous,35,,TRUE,Chrome,84,"{
+  ""c_customvalue"": ""Value1"",
+  ""c_ipaddress"": ""72.9.32.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",CommunitySearch,,TRUE,4c9bf82b-d398-44b0-8163-b1081ab99a66,,,searchboxSubmit,,Personal computer,,CommunitySearch,Ohio,,,"{
+  ""c_customvalue"": ""Value1"",
+  ""c_ipaddress"": ""72.9.32.109"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Speedbit Charge HR"",
+  ""c_recommendation"": """"
+}",4c9bf82b-d398-44b0-8163-b1081ab99a66,map watch,FALSE,FALSE,bc803c25-2ec4-40e4-8b0f-6a95a6024dcb,0.0.0.0;0.0.0.0,Speedbit Charge HR,
+5cd6b3f6-050e-4b1b-9585-7d5b683bc0f1,2019-10-15T07:52:50.154Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",FALSE,FALSE,searchboxSubmit,iOS 8,Italy,Poirino,b21c3150-ee8b-415e-ba94-eed976600e33,en,Safari mobile 8.0,clayton.boyd@strongit.com,116,,FALSE,Safari mobile,37,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""94.83.225.54"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,clayton.boyd@strongit.com,,,searchboxSubmit,,Smartphone,,CommunitySearch,Turin,,,"{
+  ""c_customvalue"": """",
+  ""c_ipaddress"": ""94.83.225.54"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Inty"",
+  ""c_partnerstype"": ""ISV"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Certifications""
+}",c6f3f0b5-30b1-4c76-8a1d-7a22d5860db3,fitbit blaze,FALSE,TRUE,884f697a-dea0-4918-a274-205f4bd53370,0.0.0.0;0.0.0.0,Fitbit Flex 2 Bangle,
+68745b39-56e3-4fb1-a334-58b28472e317,2019-10-15T07:52:50.743Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",FALSE,FALSE,facetSelect,iOS 8,Italy,Poirino,a5a90ff6-287d-4d6e-ab43-96190fd8c3d0,en,Safari mobile 8.0,clayton.boyd@strongit.com,5,,FALSE,Safari mobile,8,"{
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Basic"",
+  ""c_facetid"": ""@beautifulrepositorytype"",
+  ""c_facettitle"": ""Repository"",
+  ""c_facetvalue"": ""Youtube"",
+  ""c_ipaddress"": ""94.83.225.54"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Training Courses""
+}",CommunitySearch,,TRUE,clayton.boyd@strongit.com,,,facetSelect,,Smartphone,,CommunitySearch,Turin,,"@beautifulrepositorytype==""Youtube""","{
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Basic"",
+  ""c_facetid"": ""@beautifulrepositorytype"",
+  ""c_facettitle"": ""Repository"",
+  ""c_facetvalue"": ""Youtube"",
+  ""c_ipaddress"": ""94.83.225.54"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""IPartner FIT FIT"",
+  ""c_partnerstype"": """",
+  ""c_product"": ""Fitbit Alta Fitness"",
+  ""c_recommendation"": ""Training Courses""
+}",c6f3f0b5-30b1-4c76-8a1d-7a22d5860db3,fitbit blaze,FALSE,TRUE,884f697a-dea0-4918-a274-205f4bd53370,0.0.0.0;0.0.0.0,Fitbit Alta Fitness,Youtube
+f5279294-aa8a-45a4-8fe0-6ab6dfcf32e2,2019-10-15T07:53:14.769Z,"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36",FALSE,FALSE,searchboxSubmit,Android 5.1 lollipop,Canada,Toronto,402b88c8-cb4d-408e-9149-9f84b75f3bdf,en,Chrome Mobile 48.0,vera.ray@facebook.com,301,,FALSE,Chrome Mobile,32,"{
+  ""c_customvalue"": ""Value3"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Algofit.com"",
+  ""c_partnerstype"": ""Distributors"",
+  ""c_product"": ""Speedbit Charge 2 Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,vera.ray@facebook.com,,,searchboxSubmit,,Smartphone,,CommunitySearch,Ontario,,,"{
+  ""c_customvalue"": ""Value3"",
+  ""c_ipaddress"": ""162.248.127.25"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Algofit.com"",
+  ""c_partnerstype"": ""Distributors"",
+  ""c_product"": ""Speedbit Charge 2 Fitness"",
+  ""c_recommendation"": ""Certifications""
+}",cd0f8110-ffbf-490c-a660-28c210569273,blaze heart rate monitor not working,FALSE,TRUE,0d33bb37-e5bd-49f0-b7d2-10c39ce60d39,0.0.0.0;0.0.0.0,Speedbit Charge 2 Fitness,
+83c02f5e-a4ed-4985-a4c9-eed49129016a,2019-10-15T07:53:28.24Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",FALSE,FALSE,interfaceChange,iOS 9,,,b9794f57-c832-4418-a1bd-d415dad5039c,en,Safari mobile 9.0,anonymous,392,,TRUE,Safari mobile,26,"{
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_interfacechangeto"": """",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""FitnessPlus"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Certifications""
+}",CommunitySearch,,TRUE,102277c5-7650-4dff-82fc-20988cb5a663,,,interfaceChange,,Smartphone,,CommunitySearch,,,,"{
+  ""c_customvalue"": ""Value1"",
+  ""c_entitlement"": ""Anonymous"",
+  ""c_interfacechangeto"": """",
+  ""c_ipaddress"": ""254.6.20.236"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""FitnessPlus"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Fitbit Flex 2 Lariat Necklace Silver"",
+  ""c_recommendation"": ""Certifications""
+}",102277c5-7650-4dff-82fc-20988cb5a663,connect smart watch,TRUE,TRUE,49741ef4-79c0-4aca-b8f2-98cb85890cc2,0.0.0.0;0.0.0.0,Fitbit Flex 2 Lariat Necklace Silver,
+23e65c5c-ea0e-4aa7-b521-3fc7f7424cbc,2019-10-15T07:53:52.643Z,"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E238",FALSE,FALSE,inputChange,iOS 9,United States,,f40d3bdc-faf9-4b83-8208-4d9bd30142e1,en,Safari mobile,victoria.brown@strongit.com,10704,,FALSE,Safari mobile,76,"{
+  ""c_customvalue"": ""Value3"",
+  ""c_inputtitle"": ""Subject"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Jackson & Larry"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Status Upgrades""
+}",CommunityCaseCreation,,TRUE,victoria.brown@strongit.com,,,inputChange,,Smartphone,,CommunityCaseCreation,North America,,"($some(keywords: memory issue, match: 1, removeStopWords: true, maximum: 300)) ($sort(criteria: relevancy))","{
+  ""c_customvalue"": ""Value3"",
+  ""c_inputtitle"": ""Subject"",
+  ""c_ipaddress"": ""74.125.226.120"",
+  ""c_jsuiversion"": ""0.0.0.0;0.0.0.0"",
+  ""c_partners"": ""Jackson & Larry"",
+  ""c_partnerstype"": ""SI's"",
+  ""c_product"": ""Fitbit Flex 2 Bangle"",
+  ""c_recommendation"": ""Status Upgrades""
+}",9ba01d8e-0d6b-42f6-9f9c-983a5bef58df,memory issue,FALSE,TRUE,ea47f488-12c7-45b0-bae4-9b5525b0ffa5,0.0.0.0;0.0.0.0,Fitbit Flex 2 Bangle,
