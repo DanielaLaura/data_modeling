@@ -13,6 +13,7 @@ clean-targets:
 
 models:
   - name: int_search_clicks
+    description: Intermediate table for joining searches and its associated clicks
     tests:
     - dbt_expectations.expect_table_column_count_to_equal:
         value: 10
