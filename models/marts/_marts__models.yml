@@ -1,10 +1,10 @@
 config-version: 2
 version: 2
-model-paths: ["models/export"]
+model-paths: ["models/marts"]
 analysis-paths: ["analyses"]
-test-paths: ["tests/export"]
+test-paths: ["tests/marts"]
 data-paths: ["data"]
-docs-paths: ["models/export"]
+docs-paths: ["models/marts"]
 macro-paths: ["macros"]
 taget-path: "target"
 clean-targets:
@@ -13,6 +13,210 @@ clean-targets:
 
 models:
   - name: int_search_clicks
+    tests:
+    - dbt_expectations.expect_table_column_count_to_equal:
+        value: 10
+        config:
+          store_failures: false
+    columns:
+      - name: date
+        description: date of a specific search
+        tests:
+          - not_null:
+             config:
+               where: "date = current_date-1"
+      - name: id
+        description: search id (table grain)
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - unique
+      - name: visitid
+        description: visit  id coresponding to a specific search
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: clickid
+        description: click  id coresponding to a specific search
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - unique
+      - name: clickrank
+        description: rank specific to a click  id out of all clicks
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: c_product
+        description: product name coresponding to a specific search context
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - accepted_values:
+                values: [ 'Speedbit Blaze Smart', 'Fitbit Alta Fitness', 'XBR6 TV', 'Fitbit Flex 2 Lariat Necklace Silver', 'Fitbit Flex 2 Bangle', 'Fitbit Blaze Smart Fitness Watch - Large - Black', 'Speedbit Charge HR', 'Speedbit Zip Fitness Tracker', 'Speedbit Flex 2 Fitness', 'Speedbit Charge 2 Fitness', 'Speed Flex 2 Fitness Tracker', '' ]
+                config:
+                  where: "date = current_date-1"
+      - name: sourcename
+        description: source name coresponding to a specific search context
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - accepted_values:
+              values: [ 'Community', 'Help Section', 'Speedbit-Enterprise', 'Blog', 'ServiceNow', 'Box Speedbit', 'HR', 'IT', 'Sharepoint Speedbit', 'Confluence - Transaction Support', 'Atlassian SpeedBit', 'Jira SpeedBit', 'Youtube SpeedBit', 'Confluence - HR', 'http://www.fitbit.com/', 'Confluence - Xaction Support' ]
+              config:
+                where: "date = current_date-1"
+      - name: browser
+        description: broswer name coresponding to a specific search context
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - accepted_values:
+                values: [ 'Safari', 'unknown', 'Outlook 2013', 'Chrome Mobile', 'Vivaldi', 'Safari mobile', 'Chrome', 'Firefox', 'IE' ]
+                config:
+                  where: "date = current_date-1"
+      - name: search_rank
+        description: rank specific to a click  id out of all searches of a visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: diff_time_search
+        description: difference in milliseconds between previous and current search within a visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+
+
   - name: fct_search_metrics
+    description: Fact table for metrics related to web search
+    tests:
+    - dbt_expectations.expect_table_column_count_to_equal:
+        value: 13
+        config:
+          store_failures: false
+    columns:
+      - name: date
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: searches_w_ckick
+        description: Total number of searches that have at least a click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_searches
+        description: Total number of searches
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: vistis_w_click
+        description: Total number of visits with at least one click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_visits
+        description: Total number of visits
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_search
+        description: Percentage of searches with at least a click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_difference
+        description: percentage difference between percentage_search and mavg_perc_7days
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: mavg_perc_7days
+        description: Moveing average of Percentage of searches with at least a click for the last 7 days
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: click_rate
+        description: Click through rate metric (percentage with vists with at leas a click)
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: bounce_rate
+        description: Percentage of visits without a click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_time_spent
+        description: Average time spent within a visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_visit
+        description: Average number of sessions per visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_clicks
+        description: Average number of clicks per session
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+
+
   - name: fct_top_n_metrics
+    description: Fact table for "top N" metrics related to web search
+    tests:
+    - dbt_expectations.expect_table_column_count_to_equal:
+         value: 5
+         config:
+           store_failures: false
+    columns:
+      - name: date
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_10_keywords
+        description: top 10 keywords that came up in searches per day
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_items
+        description: top 10 items (products) that came up in searches per day
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_sources
+        description: top 10 sources from where the searches originates per day
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_browsers
+        description: top 10 browsers from where the searches originates per day
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
 

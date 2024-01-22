@@ -163,6 +163,21 @@ where ranked_items <=10
 group by 1
 ),
 
+perentage as (
+select
+a.date,
+searches_w_ckick/total_searches*100 as percentage_search
+from all_searches a
+join search_w_click b on a.date=b.date
+),
+observability as (
+select
+    date,
+    percentage_search,
+    avg(percentage_search) over (order by date rows between 6 preceding and current row) as mavg_perc_7days
+from perentage
+ ),
+
 search_metrics as (
 select
 a.date,
@@ -170,7 +185,9 @@ searches_w_ckick,
 total_searches,
 vistis_w_click,
 total_visits,
----searches_w_ckick/total_searches*100 as clc,
+percentage_search,
+mavg_perc_7days,
+(percentage_search-mavg_perc_7days)*100/percentage_search as percentage_diff,
 vistis_w_click/total_searches*100 as click_rate,
 100- vistis_w_click/total_visits*100 as bounce_rate,
 avg_time_spent,
@@ -181,6 +198,7 @@ join all_searches b on a.date=b.date
 join times_spent c on a.date=c.date_search
 join visits_to_sessions d on a.date=d.date
 join session_to_clicks e on a.date=e.date
+join observability f on a.date=f.date
 ),
 
 top_n_metrics as (
@@ -202,6 +220,9 @@ searches_w_ckick,
 total_searches,
 vistis_w_click,
 total_visits,
+percentage_search,
+mavg_perc_7days,
+percentage_diff,
 click_rate,
 bounce_rate,
 avg_time_spent,

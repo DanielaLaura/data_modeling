@@ -13,5 +13,192 @@ clean-targets:
 
 models:
   - name: rpt_ml_search_model_obs
+    tests:
+    - dbt_expectations.expect_table_column_count_to_equal:
+        value: 17
+        config:
+          store_failures: false
+    columns:
+      - name: date
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - unique
+      - name: searches_w_ckick
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_searches
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: vistis_w_click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_visits
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_search
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: mavg_perc_7days
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_diff
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: click_rate
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: bounce_rate
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_time_spent
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_clicks
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_10_keywords
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_items
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_sources
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_browsers
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+
+
   - name: rpt_ml_search_model_obs_v2
+    tests:
+    - dbt_expectations.expect_table_column_count_to_equal:
+        value: 17
+        config:
+          store_failures: false
+    columns:
+      - name: date
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+          - unique
+      - name: searches_w_ckick
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_searches
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: vistis_w_click
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: total_visits
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_search
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: mavg_perc_7days
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: percentage_diff
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: click_rate
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: bounce_rate
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_time_spent
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_visit
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: avg_sess_clicks
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_10_keywords
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_items
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_sources
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+      - name: top_browsers
+        tests:
+          - not_null:
+              config:
+                where: "date = current_date-1"
+
 
