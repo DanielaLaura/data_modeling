@@ -39,3 +39,13 @@ models:
       +materialized: incremental
     marts:
       +materialized: incremental
+
+
+# Hooks
+
+on-run-end:
+  - '{{ log_dbt_tests_results(results) }}'
+  - '{{ log_dbt_run_results(results) }}'
+
+vars:
+  search_partition: '2024-01-01'

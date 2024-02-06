@@ -1,0 +1,24 @@
+configuration:
+  int_search_clicks:
+    schedule: 0
+    target: "dev"
+    exclude_flag: "tag:unit-test"
+    var: None
+
+  fct_search_metrics:
+    schedule: 1
+    target: "dev"
+    exclude_flag: "tag:unit-test"
+    var: None
+
+  fct_top_n_metrics:
+    schedule: 1
+    target: "dev"
+    exclude_flag: "tag:unit-test"
+    var: None
+
+  rpt_ml_search_model_obs_v2:
+    schedule: 2
+    target: "dev"
+    exclude_flag: "tag:unit-test"
+    var: None
